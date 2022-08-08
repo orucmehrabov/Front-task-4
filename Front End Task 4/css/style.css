@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Header{  
+    overflow: hidden;
+    padding:36px 4rem;
+    position: fixed;
+    width: 100%;
+}
+
+#Header a{
+    text-decoration: none;    
+}
+
+#Header .left{
+    width: 15%;
+    float: left;
+    
+}
+
+#Header .right {
+   margin: 7px;
+}
+
+#Header .right a{
+    float: right;
+    color: #fff;
+    margin-left: 20px;
+}
+
+#first{
+    background: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 15rem 0;
+}
+
+#first h3{
+    color: #fff;
+    font-size: 36px;
+}
+
+#first h1{
+    color: #fff;
+    font-size: 72px;
+    padding-bottom: 60px;
+}
+
+#first a{
+    background-color: #ffc800;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size:18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.services-text, .third-text, .TEAM-TEXT{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#Services{
+    padding: 96px 4rem;
+    overflow: auto;
+}
+
+#Services h2{
+    color: #212529;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#Services h3{
+    color: #6c757d;
+    font-weight: 400px;     
+}
+
+.service-all .box{
+    width: calc(100%/3);
+    float: left;
+}
+.service-all .box svg{
+    height: 6rem ;
+    background-color: #ffc800;
+    color: #fff;
+}
+
+.service-all .box{
+    text-align: center;
+    padding: 20px;
+}
+
+.box svg{
+    margin: 10px 0;
+}
+
+.third .box{
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+    margin-left: 20px ;
+    margin-bottom: 30px;
+}
+
+.third .box img{
+    width: 100%;
+}
+
+#third{
+    padding: 1rem 1rem;
+    overflow: auto;
+    background-color: #f8f9fa;
+}
+
+#third .buttom{
+    text-align: center;
+    background-color: #fff;
+    padding: 15px 0;
+    vertical-align: bottom;
+}
+ 
+.TEAM-TEXT h2{
+    color: #212529;
+}
+
+.TEAM-TEXT h3{
+    color: #6c757d;
+}
+
+.team-all .box img{
+    border: 0.5rem solid #DFE0E1;
+    border-radius: 100%;
+}
+
+.team-all .box{
+    float: left;
+    width: 30%;
+}
